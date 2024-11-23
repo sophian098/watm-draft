@@ -1,0 +1,83 @@
+body {
+    background-color:#FAEBCD;
+    font-family: serif;
+
+}
+
+
+h1 {
+    color: #434343;
+    font-size: 300%;
+    text-align: center;
+
+}
+
+h3 {
+    color: #434343;
+}
+
+.buttonLogIn {
+    display:block;
+    margin: 10% auto;
+    justify-content: center;
+    background-color: #F7C873;
+    text-align: center;
+    padding: 10px 20px;
+    color: #434343;
+    font-size: 15px;
+    left: 400%;
+    border-radius: 5px;
+    border: none;
+}
+
+.logoImage {
+    display: block;
+    margin: 10% auto;
+}
+
+.emptyPhoto1 {
+    display: block;
+    max-width: 30%;
+    height: auto;
+    margin-right:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+div.polaroid {
+    flex: 1 1 calc(50% - 5%); /* each photos takes 50% of the container */
+    max-width: 45%;
+    background-color:#F8F8F8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+  }
+  
+div.container {
+    text-align: center;
+    padding: 4px 20px;
+  }
+
+
+div.photo-grid{
+    display:flex;
+    flex-wrap: wrap; /*items can wrap onto new lines */
+    gap: 5%; /*adds space bw photos */
+    width: 60%;
+    background-color:#F8F8F8;
+    padding: 5%;
+
+}
+
+.buttonHomepage{
+    margin-top: 10px;
+    background-color: #F7C873;
+    color: #434343;
+    width:150px;
+    display: inline-block;
+}
+
+
+
+
+  
